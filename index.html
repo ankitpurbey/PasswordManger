@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>passManager</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>contact</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>PassManager</h1>
+        <p>We are here to manage Your all passwords </p>
+        <h2>Your Password</h2>
+        <table>
+            <tr>
+                <th>Website</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Delete</th>
+            </tr>
+            <tr>
+                <td>Google.com</td>
+                <td> @ankit</td>
+                <td>54321990</td>
+                <td></td>
+            </tr>
+        </table>
+        <h2>Add A Password</h2>
+        <form action="/submit" method="post">
+            <!-- Text input for username -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+        
+            <!-- Password input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+            <!-- Submit button -->
+    <input type="submit" value="Submit">
+</form>
+    </div>
+</body>
+</html>
