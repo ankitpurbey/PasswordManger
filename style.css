@@ -21,8 +21,10 @@
             margin-left: 13px;
             margin-right: 13px;
         }
-        table{
+        table, td, tr,th{
             border: 2px solid black;
+            border-collapse: collapse;
+            padding: 5px 13px;
         }
         .container{
             max-width: 80vw;
